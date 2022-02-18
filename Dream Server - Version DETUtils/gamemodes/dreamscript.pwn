@@ -8,11 +8,6 @@ Version 0.1
 Thanks :
 --
 DEntisT : https://github.com/DEntis-T/OMP-DETUtils
-
---
-For Help :
---
-DEntisT - Login and Register System
 --
 */
 
