@@ -65,7 +65,8 @@ enum
     DIALOG_LOGIN,
     DIALOG_REGISTER,
     DIALOG_GENDER,
-    DIALOG_SKIN
+    DIALOG_SKIN,
+    DIALOG_STATS
 }
 
 enum PlayerData
@@ -287,6 +288,7 @@ public OnPlayerDisconnect(playerid, reason)
 	PlayerCache[playerid][gender] ? "Zensko" : "Musko",
 	PlayerCache[playerid][skin],
 	PlayerCache[playerid][level]);
+	ShowPlayerDialog(playerid, DIALOG_STATS, DIALOG_STYLE_MSGBOX, "Stats", playerstats, "Hvala", "");
 	return 1;
 }
 
